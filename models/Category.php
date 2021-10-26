@@ -103,7 +103,6 @@ class Category{
     
     public static function getCategory($dbc, $id){
     
-        //version avec une requete preparée
         $query = 'SELECT * FROM `category` WHERE id = :id';
         $aBindParam = array('id'=>$id);
         $oCategory =  $dbc->select($query,$aBindParam);

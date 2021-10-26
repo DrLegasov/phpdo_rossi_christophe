@@ -27,6 +27,18 @@ switch($_GET['action']):
     case 'categoryForm' :
         require_once('C:/wamp64/www/EVAL2610-DIE-/controllers/categoryFormController.php');
         break;
+        
+    case 'articlesList':
+        require_once('C:/wamp64/www/EVAL2610-DIE-/controllers/articlesListController.php');
+        break;
+
+    case 'articleDetail' :
+        require_once('C:/wamp64/www/EVAL2610-DIE-/controllers/articleDetailController.php');
+        break;
+    
+    case 'articleForm' :
+        require_once('C:/wamp64/www/EVAL2610-DIE-/controllers/articleFormController.php');
+        break;
     
 endswitch;
 

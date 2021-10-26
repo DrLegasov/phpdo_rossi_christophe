@@ -145,7 +145,6 @@ class Article{
         $query = 'SELECT * FROM `article` WHERE id = :id';
         $aBindParam = array('id'=>$id);
         $oArticle =  $dbc->select($query,$aBindParam);
-        var_dump($oArticle);
         return $oArticle;
     }
     

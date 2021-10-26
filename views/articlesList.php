@@ -31,7 +31,7 @@
                         foreach($articles as $oArticle):
                     ?>
                 <tr class="justify-content-center">
-                    <td> <img class="image-fluid" width="50%"
+                    <td> <img class="image-fluid" width="20%"
                             src="<?php echo $oArticle-> getPicture($dbc,$oArticle->getId()); ?>" alt=""></td>
                     <td> <h3 class="text-center mt-5"><?php echo $oArticle->getTitle(); ?><h3></td>
                     <td><p class="text-center mt-5"><?php echo $oArticle->getPrice(); ?>€</p></td>

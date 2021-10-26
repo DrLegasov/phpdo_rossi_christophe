@@ -36,4 +36,4 @@ La classe "personne" est ainsi une classe mère, ses paramètre sont "protected"
 enfants =>(les classes "enfant" et "professeur") héritent de ces proppriétés protégés en sus de leur propriété propres.
 
 
-nb(aucune consultations externes)
+nb(aucune consultations externes pour répondre à ces question, néanmoins pour le reste... Constat tardif, mais je ne suis peut être pas fais pour ça...)

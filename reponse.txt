@@ -1,0 +1,39 @@
+● A quoi sert la fonction suivante :
+spl_autoload_register ?
+
+Cette fonction sert a charger la Base de Données de façon automatique à l'appel de variable définie en argument.
+
+
+● Quel est l’avantage à mettre en place de l’héritage ?
+
+l'héritage permet la transmission de tout ou partie des paramètres d'une classe parente à d'autre classe dîtes enfants.
+Celà permet d'éviter une redondance de code et dond d'erreur potentielles.
+
+● Les classes :
+○ enfant (propriété propriété nom, prenom, dateNaissance, classe) et
+○ professeur (propriété propriété nom, prenom, dateNaissance,
+matière)
+héritent de la classe personne (propriété nom, prenom,
+dateNaissance).
+Ecrire le prototype de ces 3 classes
+
+class enfant extends personne
+{
+protected $firstName,
+protected $lastName,
+protected $birthDate,
+private $session;
+} 
+class professeur extends personne
+{
+protected $firstName,
+protected $lastName,
+protected $birthDate,
+private $subject;
+} 
+
+La classe "personne" est ainsi une classe mère, ses paramètre sont "protected" et ses 
+enfants =>(les classes "enfant" et "professeur") héritent de ces proppriétés protégés en sus de leur propriété propres.
+
+
+nb(aucune consultations externes)
